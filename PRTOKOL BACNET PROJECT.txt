@@ -1,0 +1,79 @@
+# =========================
+# ESP-IDF Build Output
+# =========================
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Binary & firmware outputs
+*.bin
+*.elf
+*.map
+flasher_args.json
+
+# ESP-IDF config files (local machine specific)
+sdkconfig
+sdkconfig.old
+
+# =========================
+# ESP-IDF Components & Tools
+# =========================
+managed_components/
+.espressif/
+components/.idf/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# =========================
+# Logs & Temp Files
+# =========================
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# =========================
+# OS Files
+# =========================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.directory
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.suo
+*.user
+*.workspace
+
+# =========================
+# Optional (if using local libs)
+# =========================
+# bacnet-stack/
